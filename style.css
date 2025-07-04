@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #cce7ff;
+  font-family: sans-serif;
+}
+
+#game {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #a7d0ff;
+}
+
+#player {
+  width: 30px;
+  height: 30px;
+  background: red;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  border-radius: 50%;
+}
+
+.building {
+  position: absolute;
+  font-size: 32px;
+}
